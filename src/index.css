@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pesquisa {
+}
+
+.navBar {
+  background-color: rgb(86, 118, 224);
+  padding-top: 10px;
+}
+ul {
+  background-color: rgb(255, 82, 20);
+  padding: 5px;
+}
+li {
+  display: inline;
+}
+a {
+  margin: 5px 0px 5px 0px;
+  padding: 0px 2px;
+
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid white;
+}
+li:hover {
+  background-color: rgb(226, 76, 22);
+}
